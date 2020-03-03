@@ -1,0 +1,43 @@
+virtual addr:0x6c74
+pdt index:0x1b pde:(valid: 1, ptn 0x20)
+pt index:0x03 pte:(valid: 1, ppn 0x61)
+physical addr:0xc34 content:0x06
+
+virtual addr:0x6b22
+pdt index:0x1a pde:(valid: 1, ptn 0x52)
+pt index:0x19 pte:(valid: 1, ppn 0x47)
+physical addr:0x8e2 content:0x1a
+
+virtual addr:0x03df
+pdt index:0x00 pde:(valid: 1, ptn 0x5a)
+pt index:0x1e pte:(valid: 1, ppn 0x05)
+physical addr:0xbf content:0x0f
+
+virtual addr:0x69dc
+pdt index:0x1a pde:(valid: 1, ptn 0x52)
+pt index:0x0e pte:(valid: 0, ppn 0x7f)
+
+virtual addr:0x317a
+pdt index:0x0c pde:(valid: 1, ptn 0x18)
+pt index:0x0b pte:(valid: 1, ppn 0x35)
+physical addr:0x6ba content:0x1e
+
+virtual addr:0x4546
+pdt index:0x11 pde:(valid: 1, ptn 0x21)
+pt index:0x0a pte:(valid: 0, ppn 0x7f)
+
+virtual addr:0x2c03
+pdt index:0x0b pde:(valid: 1, ptn 0x44)
+pt index:0x00 pte:(valid: 1, ppn 0x57)
+physical addr:0xae3 content:0x16
+
+virtual addr:0x7fd7
+pdt index:0x1f pde:(valid: 1, ptn 0x12)
+pt index:0x1e pte:(valid: 0, ppn 0x7f)
+
+virtual addr:0x390e
+pdt index:0x0e pde:(valid: 0, ptn 0x7f)
+
+virtual addr:0x748b
+pdt index:0x1d pde:(valid: 1, ptn 0x00)
+pt index:0x04 pte:(valid: 0, ppn 0x7f)
