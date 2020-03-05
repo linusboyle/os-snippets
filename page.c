@@ -8,21 +8,21 @@
 static int phym[page_num][page_size];
 
 int main(void) {
+    FILE* data = fopen("data", "r");
+    if (!data) {
+        printf("open [data] failed\n");
+        return 1;
+    }
+
     for (int i = 0; i < page_num; ++i) {
         for (int j = 0; j < page_size; ++j) {
-            scanf("%x", &phym[i][j]);
+            fscanf(data, "%x", &phym[i][j]);
         }
     }
 
-    /*for (int i = 0; i < page_num; ++i) {*/
-        /*for (int j = 0; j < page_size; ++j) {*/
-            /*printf("%02x ", phym[i][j]);*/
-        /*}*/
-        /*putchar('\n');*/
-    /*}*/
-
-    int vaddr = 0x748b;
-    printf("virtual addr:0x%04x\n", vaddr);
+    int vaddr;
+    printf("virtual addr:");
+    scanf("%x", &vaddr);
 
     int* pdt = phym[0x11];
     int pdt_index = vaddr >> 10;
